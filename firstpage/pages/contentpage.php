@@ -39,7 +39,7 @@
   <body>
     <form method="post" action="mainpage.php">
       <div class="login-wrapper">
-        <h1>ShareDea</h1>
+        <h1 onclick='main()'>ShareDea</h1>
         <input type='button' class='logout_btn' value='Logout' onclick='logout()'>
         <div class="like-dislike-container">
             <p class="text-content">
@@ -98,6 +98,9 @@
             </a>
         </div>
         <script>
+            function main() {
+                window.location.href = 'main.php';
+            }
             function logout() {
                 window.location.href = '../process/logout.php';
             }

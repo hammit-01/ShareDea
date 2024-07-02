@@ -12,10 +12,14 @@ require_once('../process/init_db.php');
   <body>
     <form method="post" action="../process/init_db.php">
       <div class="login-wrapper">
-        <h1>ShareDea</h1>
+        <h1 onclick='main()'>ShareDea</h1>
+        <img src="../style/mainimg.png">
         <input type='button' class='login_btn' value='시작하기' onclick='goto_main()'>
       </div>
       <script>
+        function main() {
+            window.location.href = 'main.php';
+        }
         function goto_main() {
             window.location.href = 'mainpage.php';
         }

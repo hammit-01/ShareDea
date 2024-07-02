@@ -13,7 +13,7 @@ session_start();
   <body>
     <form method="post" action="../process/add.php">
       <div class="login-wrapper">
-        <h1>ShareDea</h1>
+        <h1 onclick='main()'>ShareDea</h1>
         <input type='button' class='logout_btn' value='Logout' onclick='logout()'>
         <div class="card">
             <span class="title">Comments</span>
@@ -47,6 +47,9 @@ session_start();
             </a>
         </div>
         <script>
+            function main() {
+                window.location.href = 'main.php';
+            }
             function logout() {
                 window.location.href = '../process/logout.php';
             }

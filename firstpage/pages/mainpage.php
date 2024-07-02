@@ -12,10 +12,11 @@ session_start(); // 세션 시작
   <body>
     <form method="post" action="../process/login.php">
       <div class="login-wrapper">
-        <h1>ShareDea</h1>
+        <h1 onclick='main()'>ShareDea</h1>
         <?php
         if (!isset($_SESSION['username'])) {
-          echo "<input type='text' name='username' placeholder='Id'>
+          echo "<h6>Login</h6>
+          <input type='text' name='username' placeholder='Id'>
           <input type='password' name='password' placeholder='Password'>
   
           <input type='submit' class='login_btn' value='Login'>
@@ -37,6 +38,9 @@ session_start(); // 세션 시작
         ?>
       </div>
       <script>
+        function main() {
+            window.location.href = 'main.php';
+        }
         function logout() {
             window.location.href = '../process/logout.php';
         }

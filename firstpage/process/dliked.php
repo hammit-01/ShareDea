@@ -19,7 +19,6 @@ if (isset($_SESSION['username'])) {
     
     $sql = "UPDATE text SET dlikes = dlikes + 1 WHERE id = '$id'";
     if ($conn->query($sql) === TRUE) {
-        $_SESSION['bad_flag'] = true;
     } else {
         echo "Error updating record: " . $conn->error;
     }

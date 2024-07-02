@@ -26,6 +26,12 @@ h6 {
     text-align: center;
 }
 
+img {
+    width: 680px;
+    height: auto;
+    padding-bottom: 40px;
+}
+
 .login-wrapper{
     display: flex;
     flex-direction: column;

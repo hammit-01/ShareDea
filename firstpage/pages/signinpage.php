@@ -8,13 +8,17 @@
   <body>
     <form method="post" action="../process/signin.php" onsubmit="return validateForm()">
         <div class="login-wrapper">
-        <h1>ShareDea</h1>
+        <h1 onclick='main()'>ShareDea</h1>
+        <h6>Sign in</h6>
         <input type='text' name='username' placeholder='Id' pattern="[A-Za-z0-9]{6,}" title="아이디는 영어와 숫자로 6글자 이상이어야 합니다." required>
         <input type='password' name='password' id='password' placeholder='Password' pattern="(?=.*[A-Za-z])(?=.*\d)(?=.*[!@#$%^&*_])[A-Za-z\d!@#$%^&*_]{6,}" title="비밀번호는 영어와 숫자, 특수문자를 포함하여 6글자 이상이어야 합니다." required>
         <input type='button' class='login_btn' value='Login' onclick='login()'>
         <input type='submit' class='signin_btn' value='Signin'>
         </div>
         <script>
+            function main() {
+                window.location.href = 'main.php';
+            }
             function login() {
                 window.location.href = 'mainpage.php';
             }
