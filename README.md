@@ -36,3 +36,5 @@
 📊 [UI 기획서](https://www.notion.so/UI-1fd13d3a008e4bd6af3134545b4789bc?pvs=4)
 
 💾 [DB 명세서](https://www.notion.so/DB-d806f1fea2464b3cb78168db94234b90?pvs=4)
+
+🖌 [개발 후기](https://www.notion.so/30c87d0de12646f19eb9ed04b5969208?pvs=4)
