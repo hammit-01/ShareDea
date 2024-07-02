@@ -38,3 +38,6 @@
 💾 [DB 명세서](https://www.notion.so/DB-d806f1fea2464b3cb78168db94234b90?pvs=4)
 
 🖌 [개발 후기](https://www.notion.so/30c87d0de12646f19eb9ed04b5969208?pvs=4)
+
+### 일러스트 제작
+@qwert8293919 (Instagram)
